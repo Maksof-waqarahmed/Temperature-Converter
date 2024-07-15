@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Value Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main-container">
+        <h1 class="heading">Converter</h1>
+        <div class="content-container">
+            <div class="convert-value-div">
+                <select name="value" id="converter-values" class="conv-values">
+                    <option value="Select">Select</option>
+                    <option value="Temperature">Temperature</option>
+                    <option value="Time">Time</option>
+                    <option value="Volume">Volume</option>
+                    <option value="Length">Length</option>
+                </select>
+            </div>
+            <div class="divs-container">
+                <div class="convert1-div" id="convertDiv1" >
+                    <input placeholder="Enter a Value" type="number" name="" id="input1" class="inputbox"> <br>
+                </div>
+                <div class="convert2-div" id="convertDiv2">
+                    <input type="text" disabled="true" name="" id="input2" class="inputbox" readonly> <br>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
